@@ -1,4 +1,4 @@
-📉 Customer Churn Prediction (Telecom Industry)
+📉 Customer Churn Prediction 
 🚀 Project Overview
 
 Customer churn occurs when customers stop using a company's services. In the telecom industry, churn directly impacts revenue and growth.
