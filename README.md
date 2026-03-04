@@ -1,34 +1,116 @@
-📊 Customer Churn Prediction
-
+📉 Customer Churn Prediction (Telecom Industry)
 🚀 Project Overview
 
-Customer churn is when a customer stops using a company's services. Predicting churn is crucial for telecom companies to reduce revenue loss. This project uses historical customer data to build a machine learning model that predicts churn probability.
+Customer churn occurs when customers stop using a company's services. In the telecom industry, churn directly impacts revenue and growth.
 
-The project includes:
-Data Collection
-Data Preprocessing
-Feature Engineering
-Model Building
-Model Evaluation
-Streamlit Web
+This project uses Machine Learning to predict whether a customer is likely to churn based on their service usage, billing details, and account information.
 
-📈 How It Works
+The goal is to help businesses:
 
-Load Data – Customer information such as usage, tenure, payment method.
-Preprocess Data – Handle missing values, encode categorical variables, scale features.
-Feature Engineering – Create meaningful features that improve prediction.
-Train Model – Logistic Regression, Random Forest, or Gradient Boosting for churn prediction.
-Evaluate Model – Check metrics like accuracy, precision, recall, and ROC-AUC.
-Web App – Users can input customer details and get churn probability.
+Identify high-risk customers
 
-🛠️ Technologies Used
+Improve retention strategies
+
+Reduce revenue loss
+
+🧠 Problem Statement
+
+Telecom companies face high customer churn rates. It is expensive to acquire new customers compared to retaining existing ones.
+
+Objective:
+Build a predictive model that identifies customers who are likely to churn so the company can take preventive action.
+
+📊 Dataset Features
+
+The model uses customer data such as:
+
+Customer tenure
+
+Monthly charges
+
+Total charges
+
+Contract type
+
+Payment method
+
+Internet service
+
+Online security
+
+Tech support
+
+Streaming services
+
+Senior citizen status
+
+Partner & dependents
+
+⚙️ Technologies Used
+
 Python
-Numpy 
-Pandas
-Matplotlib
-Seaborn 
-Scikit-learn
-Streamlit
 
+Pandas & NumPy
+
+Matplotlib & Seaborn
+
+Scikit-learn
+
+Logistic Regression
+
+Streamlit (for Web App)
+
+🔄 Project Workflow
+
+Data Collection
+
+Data Cleaning & Preprocessing
+
+Feature Engineering
+
+Model Building (Logistic Regression)
+
+Model Evaluation
+
+Model Deployment using Streamlit
+
+📈 Model Performance
+
+Accuracy Score
+
+Confusion Matrix
+
+Precision & Recall
+
+Probability Prediction Output
+
+The model predicts:
+
+✅ Customer will stay
+
+❌ Customer will churn
+
+💻 Web Application
+
+A user-friendly Streamlit web app is developed where users can:
+
+Enter customer details
+
+Get churn prediction instantly
+
+View probability of churn
+
+
+🎯 Business Impact
+
+This project helps telecom companies:
+
+Reduce customer loss
+
+Increase retention rate
+
+Improve marketing strategy
+
+Make data-driven decisions
 
 
